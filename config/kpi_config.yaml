@@ -1,0 +1,19 @@
+interfaces:
+  - name: "E2"
+    latency_threshold: 50  # ms
+    throughput_threshold: 100  # Mbps
+  - name: "F1"
+    latency_threshold: 40
+    throughput_threshold: 120
+  - name: "O1"
+    latency_threshold: 30
+    throughput_threshold: 110
+  - name: "N2"
+    latency_threshold: 60
+    throughput_threshold: 130
+  - name: "N3"
+    latency_threshold: 45
+    throughput_threshold: 115
+logging:
+  enabled: true
+  log_file: "logs/kpi_monitor.log"

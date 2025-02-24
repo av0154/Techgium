@@ -1,0 +1,6 @@
+controller:
+  ip: "127.0.0.1"
+  port: 6653
+  southbound_protocol: "OpenFlow"
+  topology_poll_interval: 10  # in seconds
+  logging_enabled: true
